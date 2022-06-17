@@ -1,0 +1,312 @@
+/* Add CSS */
+/* Add CSS stylesheet */
+html{
+    font-family: Sans-Serif;
+    width: auto;
+    height: auto;
+  
+  }
+  body{
+    width: auto;
+    height: auto;
+    background-color:rgb(255, 255, 255);
+    overflow: auto;
+  }
+  
+  .banner {
+      background-color: rgb(221, 221, 221);
+      overflow: hidden;
+      text-align: center;
+      border-style:solid;
+      margin: auto;
+      padding: auto;
+      scroll-snap-align: auto;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .banner a {
+      float: left;
+      color: #0c0c0c;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-size: 25px;
+  
+      margin-top: auto;
+    }
+    
+    .banner a:hover {
+      background-color: rgb(134, 133, 133);
+      color: rgb(24, 23, 23);
+    }
+    .banner b.fake {
+        float: center;
+        color: #0c0c0c;
+        text-align:center;
+        padding: 14px 20px;
+        text-decoration: solid;
+        font-size: 40px;
+  
+    }
+    #Login, #SignUp, #logout, #profile{
+        float: right;
+
+    }
+    .searchbar{
+      float: right;
+      
+      color: #0c0c0c;
+      padding: auto;
+      text-decoration: none;
+      font-size: 50px;
+  
+    } 
+    #searchtext{
+        position: relative; top: -15px; right: 15px;
+    }
+
+    .questheader {
+      color: black;
+      text-align:center;
+      padding: 20px 20px;
+      text-decoration: solid;
+      font-size: 30px;
+    }
+    .list_ofquestion{ 
+      border-collapse: collapse;
+      float: left;
+      text-align: center;
+      border-style: solid;
+      row-gap: 100px;
+  
+      width: 100%;
+      float: center;
+    }
+    .title{
+      color:rgb(44, 44, 238);
+      font-size: 20px;
+  
+    }
+    .tag a{
+      
+      color: white;
+      float: center;
+      background-color: gray;
+      border-style:round;
+      border-radius: 10px;
+      margin-right: 10px;
+      padding: 0px 10px;
+  
+  
+    }
+  
+  
+    .main {
+      background-color: rgb(121, 121, 121);
+    }
+    
+    #askbutton{
+      margin: 5px;
+      font-size: 20px;
+      text-align: center;
+      text-decoration: solid;
+      color: white;
+      background-color: #165A92; 
+      padding: px 45px; 
+      border-style: round;
+      border-radius: 5px;
+      float: right;
+      position: relative;
+    }
+    #QuestionListPage{
+        width: 100%;
+
+        float: center;
+        font-size: 30px;
+        text-decoration: solid;
+    }
+    #amountquestion{
+        width: 20%;
+        text-align: left;
+        
+    }
+    #questionHead{
+        width: 60%;
+        text-align: center;
+    }
+    #title{
+        color:rgb(44, 44, 238);
+        font-size: 20px;
+
+    }
+    #tags a{
+    
+        color: white;
+        float: center;
+        background-color: gray;
+        border-style:round;
+        border-radius: 10px;
+        margin-right: 10px;
+        padding: 0px 10px;
+    
+    
+      }
+    #questionThreads{ 
+        border-collapse: collapse;
+        float: left;
+        text-align: center;
+        row-gap: 100px;
+    
+        width: 100%;
+        float: center;
+      }
+    #questionThreads tr, #ctr{
+        height: 50px;
+        overflow: none;
+        border-bottom-style: solid;
+    }
+    #askanQuest{
+      width: 100%;
+      float: left;
+      align-content: center;
+      text-align: center;
+      margin: auto;
+      padding: auto;
+    }
+    #askanQuest label{
+      font-size: 15px;
+      position: relative;
+  
+    }
+    
+    #title_input{
+      width: 50%;
+      height: 80px;
+      text-align: auto;
+  
+    }
+    #text_input, #summary_input{
+      width: 50%;
+      height: 100px;
+    }
+    #tag_input{
+      width: 50%;
+      height: 55px;
+    }
+    #username_input{
+      width: 50%;
+      height: 45px;
+    }
+    #postAnQuestionBtn{
+      font-size: 20px;
+      text-align: center;
+      text-decoration: solid;
+      color: white;
+      background-color: #165A92; 
+      padding: auto; 
+      border-style: round;
+      border-radius: 5px;
+  
+    }
+    #askanQuest p, #signuppage p, #loginpage p, #err {
+      color:red;
+    }
+    #ansbtn{
+      align-content: center;
+      float: left;
+      font-size: 20px;
+      position: relative; left: 42.25% ;
+      text-decoration: solid;
+      color: white;
+      background-color: #165A92; 
+      padding: auto; 
+      border-style: round;
+      border-radius: 5px;
+      margin: 10px;
+      height: auto;
+    }
+    .questionsecondrow{
+      border-collapse: collapse;
+      border-bottom-style: solid;
+    }
+    #tagbox{
+      margin: 50px;
+      border-style: solid;
+    }
+    #tagname{
+      color: #0281E8;
+      margin-bottom: 25px;
+      text-decoration: underline;
+    }
+    #loginpage, #signuppage{
+        width: 50%;
+        height: 50%;
+        position: relative; left: 25%;
+        float:center;
+        text-align: center;
+        border-style: solid;
+    }
+    #pgbtn{
+      margin: 5px;
+      font-size: 20px;
+      text-decoration: solid;
+      color: white;
+      background-color: #165A92; 
+      padding: px 45px; 
+      border-style: round;
+      border-radius: 5px;
+    }
+    #comment{
+      border-style: solid;
+    }
+    #commentT{
+      width:  80%;
+    }
+    #commentpg{
+      float:center;
+      text-align: center;
+    }
+    #sidebar {
+      display: block;
+      float:left;
+      width: 25%;
+      height: 100%;
+      background-color: rgb(221, 221, 221);
+      overflow: hidden;
+      text-align: center;
+      border-style:solid;
+      margin: auto;
+      padding: auto;
+      scroll-snap-align: auto;
+      position: sticky;
+      left: 0;
+      background: rgb(221, 221, 221);
+    }
+    
+    #sidebar a {
+      float: left;
+      border-style: solid;
+      color: #0c0c0c;
+      padding: 0px 125px;
+      text-decoration: none;
+      font-size: 25px;
+  
+    }
+    #profileheader{
+      padding: 0px 150px;
+
+    }
+    #ptag{
+      float: center;
+      background-color: gray;
+      border-style:round;
+      border-radius: 10px;
+      margin-right: 100px;
+      padding: 0px 25px;
+  
+  
+    }
+    #welomce{
+      text-align: center;
+    }
